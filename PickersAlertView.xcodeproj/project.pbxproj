@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F002AAB14FA5A2400917E04 /* PickerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F002AAA14FA5A2400917E04 /* PickerAlertView.m */; };
+		5FCC7F5514FAA9520058F72C /* BasicAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC7F5414FAA9520058F72C /* BasicAlertView.m */; };
+		86AB3EC813FA3F89004F844A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3EC713FA3F89004F844A /* UIKit.framework */; };
+		86AB3ECA13FA3F89004F844A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3EC913FA3F89004F844A /* Foundation.framework */; };
+		86AB3ECC13FA3F89004F844A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3ECB13FA3F89004F844A /* CoreGraphics.framework */; };
+		86AB3ED213FA3F89004F844A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86AB3ED013FA3F89004F844A /* InfoPlist.strings */; };
+		86AB3ED413FA3F89004F844A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3ED313FA3F89004F844A /* main.m */; };
+		86AB3ED813FA3F89004F844A /* PickerAlertViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3ED713FA3F89004F844A /* PickerAlertViewAppDelegate.m */; };
+		86AB3F0F13FA42CA004F844A /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3F0E13FA42CA004F844A /* PickerViewController.m */; };
+		86AB3F1213FA4480004F844A /* DatePickerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3F1113FA4480004F844A /* DatePickerAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F002AA914FA5A2400917E04 /* PickerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerAlertView.h; sourceTree = "<group>"; };
+		5F002AAA14FA5A2400917E04 /* PickerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerAlertView.m; sourceTree = "<group>"; };
+		5FCC7F5314FAA9520058F72C /* BasicAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAlertView.h; sourceTree = "<group>"; };
+		5FCC7F5414FAA9520058F72C /* BasicAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlertView.m; sourceTree = "<group>"; };
+		86AB3EC313FA3F89004F844A /* PickersAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickersAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB3EC713FA3F89004F844A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86AB3EC913FA3F89004F844A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86AB3ECB13FA3F89004F844A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86AB3ECF13FA3F89004F844A /* PickersAlertView-Info.plist */ = {isa = PBXFileReference; path = "PickersAlertView-Info.plist"; sourceTree = "<group>"; };
+		86AB3ED113FA3F89004F844A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86AB3ED313FA3F89004F844A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86AB3ED513FA3F89004F844A /* PickersAlertView-Prefix.pch */ = {isa = PBXFileReference; path = "PickersAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		86AB3ED613FA3F89004F844A /* PickerAlertViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerAlertViewAppDelegate.h; sourceTree = "<group>"; };
+		86AB3ED713FA3F89004F844A /* PickerAlertViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerAlertViewAppDelegate.m; sourceTree = "<group>"; };
+		86AB3EDF13FA3F89004F844A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		86AB3F0D13FA42CA004F844A /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		86AB3F0E13FA42CA004F844A /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		86AB3F1013FA4480004F844A /* DatePickerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerAlertView.h; sourceTree = "<group>"; };
+		86AB3F1113FA4480004F844A /* DatePickerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AB3EC013FA3F89004F844A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB3EC813FA3F89004F844A /* UIKit.framework in Frameworks */,
+				86AB3ECA13FA3F89004F844A /* Foundation.framework in Frameworks */,
+				86AB3ECC13FA3F89004F844A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FCC7F5714FAADD40058F72C /* Application Test */ = {
+			isa = PBXGroup;
+			children = (
+				86AB3ED613FA3F89004F844A /* PickerAlertViewAppDelegate.h */,
+				86AB3ED713FA3F89004F844A /* PickerAlertViewAppDelegate.m */,
+				86AB3F0D13FA42CA004F844A /* PickerViewController.h */,
+				86AB3F0E13FA42CA004F844A /* PickerViewController.m */,
+			);
+			name = "Application Test";
+			sourceTree = "<group>";
+		};
+		5FCC7F5814FAADE50058F72C /* PickerAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5F002AA914FA5A2400917E04 /* PickerAlertView.h */,
+				5F002AAA14FA5A2400917E04 /* PickerAlertView.m */,
+			);
+			name = PickerAlertView;
+			sourceTree = "<group>";
+		};
+		5FCC7F5914FAADF50058F72C /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				86AB3F1013FA4480004F844A /* DatePickerAlertView.h */,
+				86AB3F1113FA4480004F844A /* DatePickerAlertView.m */,
+			);
+			name = DatePickerView;
+			sourceTree = "<group>";
+		};
+		5FCC7F5A14FAAE010058F72C /* BasicAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC7F5314FAA9520058F72C /* BasicAlertView.h */,
+				5FCC7F5414FAA9520058F72C /* BasicAlertView.m */,
+			);
+			name = BasicAlertView;
+			sourceTree = "<group>";
+		};
+		86AB3EB813FA3F89004F844A = {
+			isa = PBXGroup;
+			children = (
+				86AB3ECD13FA3F89004F844A /* PickerAlertView */,
+				86AB3EC613FA3F89004F844A /* Frameworks */,
+				86AB3EC413FA3F89004F844A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86AB3EC413FA3F89004F844A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AB3EC313FA3F89004F844A /* PickersAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AB3EC613FA3F89004F844A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AB3EC713FA3F89004F844A /* UIKit.framework */,
+				86AB3EC913FA3F89004F844A /* Foundation.framework */,
+				86AB3ECB13FA3F89004F844A /* CoreGraphics.framework */,
+				86AB3EDF13FA3F89004F844A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86AB3ECD13FA3F89004F844A /* PickerAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC7F5A14FAAE010058F72C /* BasicAlertView */,
+				5FCC7F5914FAADF50058F72C /* DatePickerView */,
+				5FCC7F5814FAADE50058F72C /* PickerAlertView */,
+				5FCC7F5714FAADD40058F72C /* Application Test */,
+				86AB3ECE13FA3F89004F844A /* Supporting Files */,
+			);
+			path = PickerAlertView;
+			sourceTree = "<group>";
+		};
+		86AB3ECE13FA3F89004F844A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AB3ECF13FA3F89004F844A /* PickersAlertView-Info.plist */,
+				86AB3ED013FA3F89004F844A /* InfoPlist.strings */,
+				86AB3ED313FA3F89004F844A /* main.m */,
+				86AB3ED513FA3F89004F844A /* PickersAlertView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AB3EC213FA3F89004F844A /* PickersAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AB3EF113FA3F89004F844A /* Build configuration list for PBXNativeTarget "PickersAlertView" */;
+			buildPhases = (
+				86AB3EBF13FA3F89004F844A /* Sources */,
+				86AB3EC013FA3F89004F844A /* Frameworks */,
+				86AB3EC113FA3F89004F844A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickersAlertView;
+			productName = PickerAlertView;
+			productReference = 86AB3EC313FA3F89004F844A /* PickersAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AB3EBA13FA3F89004F844A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 86AB3EBD13FA3F89004F844A /* Build configuration list for PBXProject "PickersAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86AB3EB813FA3F89004F844A;
+			productRefGroup = 86AB3EC413FA3F89004F844A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AB3EC213FA3F89004F844A /* PickersAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AB3EC113FA3F89004F844A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB3ED213FA3F89004F844A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AB3EBF13FA3F89004F844A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB3ED413FA3F89004F844A /* main.m in Sources */,
+				86AB3ED813FA3F89004F844A /* PickerAlertViewAppDelegate.m in Sources */,
+				86AB3F0F13FA42CA004F844A /* PickerViewController.m in Sources */,
+				86AB3F1213FA4480004F844A /* DatePickerAlertView.m in Sources */,
+				5F002AAB14FA5A2400917E04 /* PickerAlertView.m in Sources */,
+				5FCC7F5514FAA9520058F72C /* BasicAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86AB3ED013FA3F89004F844A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AB3ED113FA3F89004F844A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86AB3EEF13FA3F89004F844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86AB3EF013FA3F89004F844A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AB3EF213FA3F89004F844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickerAlertView/PickersAlertView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PickerAlertView/PickersAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = PickersAlertView;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86AB3EF313FA3F89004F844A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickerAlertView/PickersAlertView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PickerAlertView/PickersAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = PickersAlertView;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86AB3EBD13FA3F89004F844A /* Build configuration list for PBXProject "PickersAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB3EEF13FA3F89004F844A /* Debug */,
+				86AB3EF013FA3F89004F844A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AB3EF113FA3F89004F844A /* Build configuration list for PBXNativeTarget "PickersAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB3EF213FA3F89004F844A /* Debug */,
+				86AB3EF313FA3F89004F844A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AB3EBA13FA3F89004F844A /* Project object */;
+}
